@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 
 <head>
+<link rel="stylesheet" href="style.css">
+<!--This way we import the fonts froom google so our page looks nicer-->
+<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Saira+Condensed&display=swap" rel="stylesheet">
 <title>Attractive title</title> <!--The proffessor said we have to put an attractive title so I did just that-->
 </head>
 <header><em>Bajraktarevic Amir 170302090</em></header>
-<h1><center>Curriculum Vitae</center></h1>
-<!--This could be much more cleaner, but I haven't used any CSS so the fonts and backgrounds are a bit uneasy for the eye.-->
-<aside><img src="https://media.giphy.com/media/l2AUpgAaCs0P5pHg9h/giphy.gif" alt="Mire" width="300" height="300"></aside>
+<h1>Curriculum Vitae</h1>
+
     <body>
            
+    <img class="prva" src="https://media.giphy.com/media/l2AUpgAaCs0P5pHg9h/giphy.gif" alt="Mire">
         <div>
             <h2>Personal information</h2>
         <ul style="bullet">
@@ -25,7 +29,7 @@
             <ul>
             <li><b>Primary school: </b>Musa Cazim Catic Sarajevo 2004-2013</li>
             <li><b>Secondary school: </b>Druga gimnazija Sarajevo 2013-2017</li>
-            <li><b>University: </b><acronym title="International University of Sarajevo">IUS</acronym> (Computer Science Major) 2017-</li>
+            <li><b>University: </b><abbr title="International University of Sarajevo">IUS</abbr> (Computer Science Major) 2017-</li>
         </ul>
         </div>
 
@@ -58,19 +62,43 @@
             <br>-Mihaly Csikszentmihalyi
         </blockquote>
 
-        <div>
+        <div class="donji">
             <b>Contact</b>
             <hr>
-            <a href="https://www.facebook.com/amir.bajraktarevic.69">Facebook</a>
-           <br>
-            <a href="https://www.instagram.com/amir_bajraktarevic/">Instagram</a>
+            <a href="https://www.facebook.com/amir.bajraktarevic.69"><img id="ikone" src="icons/fb.png"></a>
+            <a href="https://www.instagram.com/amir_bajraktarevic/"><img id="ikone" src="icons/ig.png"></a>
             <br>
-            <img src="spam.png" height="250" width="200">
-            <br>
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><button>Click to claim prize</button></a>
+            
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><button>Click me!</button></a>
+            <hr>
+
+
+            <form method="GET">
+                <p>Ask me a qeustion: </p>
+                First name:
+                <input type="text" name="First Name:" placeholder="First Name" required>
+                <br>
+                Last name:
+                <input type="text" name="Last Name:" placeholder="Last Name">
+                <br>
+                Sex:
+                <input type="radio" name="gender" value="male" checked>Male
+                <input type="radio" name="gender" value="male">Female
+                <input type="radio" name="gender" value="male">Other<br>
+                Password:
+                <input type="password" name="ID" placeholder="Your ID number" maxlength="9" required>
+                <br>
+                <input id="test" type="text" name="Question" placeholder="Your question" size="200" required>
+                <br>
+                <input class="sabmit" type="submit" name="Submit">
+                <br>
+                <p><em>&copy; Mire Cuveni productions</em></p>
+
+
+            </form>
         </div>
 
-        <p><em>&copy; Mire Cuveni productions</em></p>
+        
 
 
 
