@@ -1,0 +1,160 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Odibee Sans', cursive;
+    background: url(img/bg.jpg) no-repeat;
+    background-size: cover;
+}
+
+.login-box{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: whitesmoke;
+}
+
+.login-box h1{
+    font-size: 40px;
+    border-bottom:3px solid;
+    margin-bottom: 50px;
+    padding: 13px 0;
+}
+
+.text{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid;
+}
+
+.text i{
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+
+.text input{
+    border:none;
+    outline:none;
+    background:none;
+    color: whitesmoke;
+    font-size: 18px;
+    float:left;
+    margin: 0 10px;
+    width: 80%;
+}
+
+.button{
+    width: 100%;
+    background:none;
+    border: 2px solid;
+    color: whitesmoke;
+    padding: 5px;
+    font-size:18px;
+    cursor: pointer;
+    margin:12px 0;
+}
+
+.navbar li{
+display: inline;
+color: white;
+float: left;
+font-size: 20px;
+text-transform: uppercase;
+
+letter-spacing: 1px;
+justify-content: space-around;
+width: 10%;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#bio p{
+    color: white;
+    font-size: 25px;
+
+}
+
+.second{
+    background-color:black;
+    color:white;
+    position:absolute;
+    top:100%;
+    width: 100%;
+}
+
+.clear{
+    clear:both;
+}
+
+#bio h1{
+    border-bottom: 1px solid whitesmoke;
+}
+
+#bio p{
+    margin-right: 25%;
+    margin-bottom: 0%;
+    padding: 0%;
+}
+
+ .games h1{
+    border-bottom: 1px solid whitesmoke;
+}
+
+#games h1{
+    border-bottom: none;
+}
+
+.games p{
+font-size:25px;
+margin-right: 25%;
+}
+
+.icon {
+    width: 40px;
+    height: 50px;
+}
+
+.ss {
+    height: 500px;
+    width: 1000px;
+    border:1px solid;
+}
+
+.contact h1{
+    border-bottom: 1px solid whitesmoke;
+
+}
+
+#contact input{
+    font-family:'Odibee Sans', cursive;
+    border:none;
+    outline:none;
+    background:none;
+    color: whitesmoke;
+    font-size: 18px;
+    float:left;
+    margin: 0 10px;
+    width: 80%;
+   
+}
+
+#contact textarea{
+    font-family:'Odibee Sans', cursive;
+    border: none;
+    outline: none;
+    background: none;
+    color: whitesmoke;
+    font-size: 18px;
+    float:left;
+    margin: 0 10px;
+    width: 80%;
+}
