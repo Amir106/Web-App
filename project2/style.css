@@ -1,0 +1,284 @@
+*{
+	margin: 0%;
+	font-family: myTitleFont;
+    scroll-behavior: smooth;
+    font-family: 'Solway', serif;
+    color: wheat;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+#wrapper{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(img/background.jpg);
+    background-size: cover no-repeat;
+}
+#meni{
+    height: 5%;
+    background-color:#282320;
+    /*background-image: url(img/background.jpg);*/
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#meni li{
+    display: inline;
+    color:wheat;
+    letter-spacing: 1px;
+    justify-content: space-around;
+    font-size: 30px;
+    margin: 3%;
+}
+
+#home {
+	position: relative;
+    vertical-align: middle;
+    top: 40%;
+	transform: translate(0, -50%);
+	text-align: center;
+	font-family: myTitleFont;
+    font-size: 42px;
+    color: wheat;
+    
+}
+
+#home h2{
+    font-size: 35px;
+}
+
+#btn {
+	margin-top: 20px;
+	background-color: #282320;
+	border: none;
+	color: wheat;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 22px;
+	padding: 10px 24px;
+	border-radius: 8px;
+	border-style: solid;
+	border-width:2px;
+	border-color: #282320;
+	transition: 0.5s;
+}
+
+
+#about{
+    height: 100vh;
+    width: 100vw;
+    margin: 0%;
+    background-color: #1A1414;
+    background-size: cover;
+  
+    font-size:25px;
+}
+
+#about h1{
+    font-size: 38px;
+    padding:3%;
+}
+
+#about p{
+    
+    margin: 3%;
+}
+
+a{
+    text-decoration: none;
+    color: wheat;
+}
+
+#gallery img {
+    cursor: pointer;
+    height: 250px;
+    width: 300px;
+    float: left ;
+    border:solid 2px wheat;
+    margin: 3%;
+    padding: 1%;
+    background-color: #1A1414;
+    background-size: cover;
+}
+
+#gallery{
+    height: 100vh;
+    width: 100vw;
+    background-color: #1A1414;
+    background-size: cover;
+   
+}
+
+#gallery h1{
+    padding: 3%;
+    font-size: 38px;
+    
+}
+
+.ex span {
+    opacity: 0;
+    transition: opacity 1300ms
+}
+
+.ex span:nth-child(1)  { transition-delay: 1300ms }
+.ex span:nth-child(2)  { transition-delay: 200ms }
+.ex span:nth-child(3)  { transition-delay:  800ms   }
+.ex span:nth-child(4)  { transition-delay:  300ms }
+.ex span:nth-child(5)  { transition-delay:  700ms }
+.ex span:nth-child(6)  { transition-delay:  600ms }
+.ex span:nth-child(7)  { transition-delay:  400ms }
+.ex span:nth-child(8)  { transition-delay:  900ms;  padding-right: 20px;}
+.ex span:nth-child(9)  { transition-delay:  700ms }
+.ex span:nth-child(10) { transition-delay: 1100ms }
+.ex span:nth-child(11) { transition-delay:  100ms }
+.ex span:nth-child(12) { transition-delay:  500ms }
+
+#wrapper:hover span {
+    opacity: 1;
+}
+
+img:hover{
+	opacity: 0.4;
+}
+
+#songs {
+    height: 100vh;
+    width: 100vw;
+    background-color: #1A1414;
+    background-size: cover;
+    margin: 0%;
+    padding: 0%;
+   
+}
+
+#songs h1{
+    font-size: 38px;
+    padding:3%;
+}
+
+
+#thumbnail{
+    height: 200px;
+    width: 250px;
+    
+}
+
+figure{
+    margin: 3%;
+    border:solid 2px wheat;
+    float: left;
+    padding: 3%;
+    text-align: center;
+}
+
+figure:hover{
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+#contact{
+    height: 70vh;
+    width: 100vw;
+    background-color: #1A1414;
+    background-size: cover;
+   
+    
+}
+
+#contact h1{
+    font-size: 38px;
+    padding:3%;
+}
+
+#contact form{
+    margin: 3%;
+    border: 1px solid wheat;
+    padding: 2%;
+    
+}
+
+#contact input[type=submit]{
+    margin-top: 20px;
+	background-color: #282320;
+	border: none;
+	color: wheat;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 22px;
+	padding: 10px 24px;
+	border-radius: 8px;
+	border-style: solid;
+	border-width:2px;
+	border-color: #282320;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#contact input[type=text]{
+    color: wheat;
+    width: 50%;
+    border: none;
+    outline: 1px solid wheat;
+    background: none;
+}
+
+#contact h1{
+    padding:3%;
+}
+
+iframe{
+    margin: 3%;
+    padding: 1%;
+}
+
+.container{
+    padding: 0%;
+    margin: 0%;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+iframe{
+    width:450px;
+    height:350px;
+}
+
+#icon{
+    height: 30px;
+    width: 30px;
+}
+
+#icon img{
+    float: left;
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+#icon2{
+    padding: 10px;
+    margin: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+#contact2 p{
+padding: 2%;
+    
+}
+
+#contact2 {
+    background-color:#1A1414 ;
+    background-size: cover;
+}

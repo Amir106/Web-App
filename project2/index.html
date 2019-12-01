@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Solway&display=swap" rel="stylesheet">
+    <title>Kapodaster</title>
+</head>
+<body>
+  <div class="container">
+    <div id="wrapper">
+        <div id="meni">
+            <ul>
+            <li><a href="#wrapper"><img src="img/home.png" alt=""></a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#songs">Songs</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div id="home">
+            <h1>Kapodaster</h1>
+            <h2>The best indie-underground band that you still haven't heard about!</h2>
+            <div class="ex">
+                <span>O</span>
+                <span>f</span>
+                <span>f</span>
+                <span>i</span>
+                <span>c</span>
+                <span>i</span>
+                <span>a</span>
+                <span>l</span>
+                <span>S</span>
+                <span>i</span>
+                <span>t</span>
+                <span>e</span>
+            </div>
+            <button id="btn"><a href="#about">Learn more!</a></button>
+        </div>
+    </div>
+
+    <div id="about">
+        <h1>About us</h1>
+    
+        <p>Welcome to our WebSite!</p>
+        
+        <p>We are Kapodaster, a highschool band formed in the Third Gymnasium in Sarajevo. We were formed in 2016 and have been playing ever since. We are open to any offers and business.</p>
+        <iframe
+        src="http://maps.google.co.uk/maps?q=Third+Gymnasium&amp;output=embed">
+        </iframe>
+        
+    </div>
+
+    <div id="gallery">
+        <h1>Gallery</h1>
+         <img src="img/1.png" alt="group">
+         <img src="img/2.png" alt=" group2">
+         <img src="img/3.png" alt="art">   
+         <img src="img/4.png" alt="nastup">   
+         <img src="img/5.png" alt="sticker">   
+         <img src="img/6.png" alt="group3">      
+        <br>
+    </div>
+
+    <div id="songs">
+         <h1>These are our songs:</h1>
+         <audio id="play">
+                <source src="music/Kapodaster - Samo za tebe [Official Music Video].mp3" type="audio/mpeg" />
+            </audio>
+            <figure id>
+            <img src="img/pjesma1.jpg" onClick="document.getElementById('play').play(); return false;" id="thumbnail" />
+            <figcaption>Kapodaster-Samo za tebe</figcaption>
+            </figure>
+
+            <audio id="play_2">
+                    <source src="music/Kapodaster - Nađi me noćas.mp3" type="audio/mpeg" />
+                </audio>
+                <figure id>
+                <img src="img/pjesma2.jpg" onClick="document.getElementById('play_2').play(); return false;" id="thumbnail" />
+                <figcaption>Kapodaster-Nađi me noć<aside></aside></figcaption>
+                </figure>
+    </div>
+
+    <div id="contact">
+        <h1>Want to contact/book us?</h1>
+        <form action="nowhere">
+            Name: <br>
+                <input type="text" name="Name" placeholder="Name" required> <br>
+            Enter your e-mail: <br>
+                <input type="text" name="E-mail" placeholder="E-mail" required> <br>
+            Your question: <br>
+                <input type="text" name="Question" placeholder="Question" size="250" required >
+                <br>
+            <input type="submit" name="Submit">
+        </form>
+        
+    </div>
+
+    <div id="contact2">
+            <p>Social Networks:</p>
+            <a href="https://www.instagram.com/kapodaster_/"><img src="img/ig.png" alt="ig" id="icon2"></a>
+            <a href="https://www.youtube.com/channel/UCff2yVtU35G85CyKTjy5lDw"><img src="img/yt.png" alt="yt" id="icon2"></a>
+    </div>
+    
+</div>
+
+</body>
+</html>
