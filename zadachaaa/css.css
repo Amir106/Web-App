@@ -1,0 +1,467 @@
+*{
+	margin: 0;
+	font-family: myTitleFont;
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+	
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+#wrapper{
+	height: 100vh;
+	width: 100vw;
+	background-image: url("backgrounds/slika2.jpg");
+	background-size: cover;
+	
+}
+
+
+
+#biography{
+	height: 100vh;
+	width: 100vw;
+	background-image: url("backgrounds/slika1.jpg");
+	/*background-color: #1B0F19;*/
+	background-size: cover;
+	
+}
+
+
+.container {
+	position: relative;
+    vertical-align: middle;
+    top: 50%;
+	transform: translate(0, -50%);
+	text-align: center;
+	font-family: myTitleFont;
+	font-size: 42px;
+}
+
+.btn {
+	margin-top: 20px;
+	background-color: #1B0F19;
+	border: none;
+	color: #DD2B46;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 22px;
+	padding: 10px 24px;
+	border-radius: 8px;
+	border-style: solid;
+	border-width:2px;
+	border-color: #1B0F19;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.btn:hover {
+	color: white;
+}
+
+@font-face {
+  font-family: myTitleFont;
+  src: url(Fonts/Iceland-Regular.ttf);
+}
+
+
+.ex span {
+    opacity: 0;
+    transition: opacity 1300ms
+}
+
+.ex span:nth-child(1)  { transition-delay: 1300ms }
+.ex span:nth-child(2)  { transition-delay: 200ms }
+.ex span:nth-child(3)  { transition-delay:  800ms; padding-right: 20px; }
+.ex span:nth-child(4)  { transition-delay:  300ms }
+.ex span:nth-child(5)  { transition-delay:  700ms }
+.ex span:nth-child(6)  { transition-delay:  600ms }
+.ex span:nth-child(7)  { transition-delay:  400ms }
+.ex span:nth-child(8)  { transition-delay:  900ms }
+.ex span:nth-child(9)  { transition-delay:  700ms }
+.ex span:nth-child(10) { transition-delay: 1100ms }
+.ex span:nth-child(11) { transition-delay:  100ms }
+.ex span:nth-child(12) { transition-delay:  500ms }
+
+#wrapper:hover span {
+    opacity: 1;
+}
+
+.biographyTab {
+
+	width: 25vw;
+	height: 100vh;
+	float: left;
+    vertical-align: middle;
+    text-align: center;
+	color: white;
+	overflow: hidden;
+		
+
+
+}
+
+.biographyTab1, .biographyTab2, .biographyTab3 {
+
+	width: 25vw;
+	height: 100vh;
+	float: left;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	overflow-x: hidden;	
+	
+}
+
+.icon {
+	height: 20vh;
+	width: 20vw;
+	transition: 0.6s;
+}
+
+
+#upper {
+	background-color: #511644;
+	height:80vh;
+}
+#middle {
+	background-color: #511644;
+	height:80vh;
+}
+#bottom {
+	background-color: #511644;
+	height:100vh;
+}
+.biographyTab1:hover .icon{
+	height: 25vh;
+	width: 20vw;
+}
+.biographyTab2:hover .icon{
+	height: 25vh;
+	width: 25vw;
+}
+.biographyTab3:hover .icon{
+	height: 25vh;
+	width: 25vw;
+}
+
+p {
+	padding-top: 150px;
+	padding-bottom: 150px;
+	padding-right: 30px;
+	padding-left: 30px;
+	font-size: 28px;
+	text-align: justify;
+}
+
+
+a {
+	text-decoration: none;
+	color: #EF3F86;
+}
+
+#meni{
+	height: 10vh;
+	width: 100vw;
+	background-color: #1B0F19;
+	background-size: cover;
+	opacity: 1;
+	position: fixed;
+
+
+}
+#meniHome{
+	height: 10vh;
+	width: 20vw;
+	
+	float: left;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#meniSeg{
+	height: 10vh;
+	width: 12vw;
+	
+	float: left;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#meniSeg:hover {
+	opacity: 0.4;
+}
+
+#meniHome:hover {
+	opacity: 0.4;
+}
+
+
+#projekti{
+	height: 110vh;
+	width: 100vw;
+	background-image: url("backgrounds/slika1.jpg");
+	background-size: cover;
+	
+}
+
+.projekat1{
+	height: 50vh;
+	width: 40vw;
+	float: left;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+
+	margin-left: 7vw;
+}
+
+.projekat2{
+	height: 50vh;
+	width: 40vw;
+	float: right;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+
+	margin-right: 7vw;
+}
+
+.projekatSlika{
+	padding-left: 5vw;
+	padding-right: 5vw;
+	text-align: center;
+	height: 25vh;
+	width: 25vw;
+	float:left;
+	
+}
+
+.projekatSlika2{
+	float: left;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	text-align: center;
+	height: 25vh;
+	width: 25vw;
+	margin-left: 150px;
+
+	
+}
+
+.projekatSlika2 h1{
+	margin-left: 250px;
+} 
+
+.twoimg {
+	width: 100vw;
+	height: 55vh;
+	padding-top: 10vh;
+}
+
+.description {
+	width: 100vW;
+	height: 40vh;
+}
+
+ul {
+	margin-top: 10vh;
+	font-size: 28px;
+}
+
+img {
+	margin-top: 15px;
+	transition: 0.4s;
+}
+
+img:hover{
+	opacity: 0.4;
+}
+
+#blog{
+	height: 100vh;
+	width: 100vw;
+	background-image: url("backgrounds/slika1.jpg");
+	background-size: cover;
+}
+
+#galerija1{
+
+	height: 100vh;
+	width: 100vw;
+	background-image: url("backgrounds/slika1.jpg");
+	background-size: cover;
+}
+
+
+
+#kontakt{
+	height: 100vh;
+	width: 100vw;
+	background-image: url("backgrounds/slika1.jpg");
+	background-size: cover;
+}
+
+.kontaktTab{
+
+	width: 15vw;
+	height: 100vh;
+	float: left;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+
+.kontaktEmail{
+
+	width: 70vw;
+	height: 70%;
+	float: left;
+	padding-top: 10vh;
+	color: white;
+}
+
+input[type=text] {
+	
+	width: 70%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+
+form {
+	padding-top: 10vh;
+	color: white;
+}
+
+.galerijaDio {
+	padding-top: 15vh;
+	margin: 5px;
+	float: left;
+	width: 180px;
+}
+
+.galerijaDio2 {
+	padding-top: 15vh;
+	padding-left: 5vw;
+	margin: 5px;
+	float: left;
+	width: 180px;
+}
+
+
+div.galerijaDio:hover {
+  border: 1px solid #777;
+
+}
+div.galerijaDio img {
+  width: 100%;
+  height: auto;
+}
+
+.clanak {
+	width: 50vw;
+	height: 100vh;
+	float: left;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+
+
+}
+
+.gif {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.slajdovi {display: none;}
+img {vertical-align: middle;}
+
+.slideshow-container {
+	top: 10%;
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+	text-align: center;
+	
+  }
+
+  .slideshow-container img {
+	  width: 700px;
+	  height: 500px;
+	  border-radius: 20%;
+  }
+  
+  
+  .opis {
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+  }
+  
+  
+  .brojTeksta {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+  }
+  
+  
+  
+  
+  .active {
+	background-color: #717171;
+  }
+  
+  
+  .fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+  }
+  
+  @keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+  }
+  
+  
+  @media only screen and (max-width: 300px) {
+	.opis {font-size: 11px}
+
+
+
+
+
+
+
+
