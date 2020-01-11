@@ -13,7 +13,7 @@ html {
 #wrapper{
 	height: 100vh;
 	width: 100vw;
-	background-image: url("Backgrounds/slika2.jpg");
+	background-image: url("backgrounds/slika2.jpg");
 	background-size: cover;
 }
 
@@ -22,7 +22,7 @@ html {
 #biography{
 	height: 100vh;
 	width: 100vw;
-	background-image: url("Backgrounds/slika1.jpg");
+	background-image: url("backgrounds/slika1.jpg");
 	/*background-color: #1B0F19;*/
 	background-size: cover;
 }
@@ -58,6 +58,7 @@ html {
 
 .btn:hover {
 	color: white;
+	transform: scale(0.8);
 }
 
 @font-face {
@@ -202,7 +203,7 @@ a {
 #projekti{
 	height: 110vh;
 	width: 100vw;
-	background-image: url("Backgrounds/slika1.jpg");
+	background-image: url("backgrounds/slika1.jpg");
 	background-size: cover;
 	
 }
@@ -285,7 +286,7 @@ img:hover{
 #blog{
 	height: 100vh;
 	width: 100vw;
-	background-image: url("Backgrounds/slika1.jpg");
+	background-image: url("backgrounds/slika1.jpg");
 	background-size: cover;
 }
 
@@ -293,7 +294,7 @@ img:hover{
 
 	height: 100vh;
 	width: 100vw;
-	background-image: url("Backgrounds/slika1.jpg");
+	background-image: url("backgrounds/slika1.jpg");
 	background-size: cover;
 }
 
@@ -302,7 +303,7 @@ img:hover{
 #kontakt{
 	height: 100vh;
 	width: 100vw;
-	background-image: url("Backgrounds/slika1.jpg");
+	background-image: url("backgrounds/slika1.jpg");
 	background-size: cover;
 }
 
