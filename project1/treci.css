@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Odibee Sans', cursive;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}

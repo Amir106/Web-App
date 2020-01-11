@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Welcome to my Gaming Webpage</title>
         <link rel="stylesheet" href="style.css">  
         <link href="https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap" rel="stylesheet">
@@ -10,14 +11,8 @@
 
     <body>
 
-    <div class="navbar">
-        <ul>
-            <li><a href="#bio">About me</a></li>
-            <li><a href="#games">Games</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </div>
-        <form method="GET" action="/action_page.php">
+    
+        <form method="GET" action="mainpage.html">
      <div class="login-box">
          <h1>Login</h1>
     
@@ -30,99 +25,10 @@
         <input type="password" placeholder="Password" name="" value="" required>
      </div>
      <input class="button" type="submit" name="" value="Sign in">
+     <div class="text"> <p>Don't have an account?<a href="registration.php">Register here.</a></p></div>
     </div>
 </form>
 
-<div class="clear"></div>
-<div class="second">
-<div id="bio">
-    <h1>About me</h1>
-    <p>Hello my name is Amir and this is my website dedicated to video games. I have been playing video games since I was a child so I have decided to dedicate a website to my favorite video games that I have played throughout the years.</p>
-</div>
-<div class="clear"></div>
-<div class="games">
-    <h1>Games</h1>
-    <div id="games">
-        <a href="https://na.leagueoflegends.com/en/"><img class="icon" src="img/lol.png" alt="lol"></a>
-        <h1>LEAGUE OF LEGENDS</h1>
-        <br>
-        <p>The first game I really enjoy playinig is League of Legends.
-             It is a really fun game to play online with your friends or alone.
-             The game is played 5v5 on a map called Summoners Rift. The point of the game is to eliminate the opposite teams turrets
-             and eventually destroy their nexus (the main point). There are over 140 characters which from you can choose, and there are 5 roles
-             from which every one plays an important part. This game is based on teamwork and individual skill to outclass your opponent making you win the game.
-        </p>
-        <p>I have played this game since 2011 and have spent alot of hours on this game. Here is a analysis of time spent on one of my accounts</p>
-        <figure>
-        <img class="ss" src="img/lol1.png">
-        <figcaption>The tracker of time spent</figcaption>
-        </figure>
-        <p>As you can see there were much more productive things to do in this time but still I have no regrets as the game is really good and time consuming.</p>
-        <figure>
-            <img class="ss" src="img/lol2.jpg" alt="SR">
-            <figcaption>Summoners Rift, the map on which the game is played on</figcaption>
-        </figure>
-    </div>
-    <hr>
-    <div id="games">
-        <a href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/"><img class="icon" src="img/csgo.png" alt="csgo"></a>
-        <h1>COUNTER STRIKE: GLOBAL OFFENSIVE</h1>
-        <br>
-        <p>The second game that I really enjoy playing is Counter Strike: Global Offensive. It is an FPS game which is also played 5v5 on many maps.
-            There are 2 teams. The first team is Counter-Terrorist and the other team is the Terrorist team. The terrorist team needs to plant the bomb
-            on one of the 2 sites which are on every map and survive to the detonation in order to win the round while the CT team needs to either prevent
-            the Terrorists from planting or in the case they plant the bomb, they need to defuse it. The game is played in 30 rounds and each team
-            is on one side for 15 rounds then they swap. The winner is the first team to gather 16 won rounds, in case of a 15-15 the game is over as
-            a tie. The game is really enjoyable and I have made quite a few friends over it.</p>
-            <figure id>
-            <img class="ss" src="img/csgo2.jpg" alt="Cache">
-            <figcaption>Cache one of the most famous maps</figcaption>
-            </figure>
-    </div>
-    <hr>
-    <div id="games">
-            <a href="https://www.ea.com/games/fifa/fifa-20"><img class="icon" src="img/fifa.png" alt="fifa"></a>
-            <h1>FIFA SERIES</h1>
-            <p>FIFA is probably the worlds most famous football simulation game. There is not much more to say. Every year there is a new instalation with
-                updated teams.</p>
-                <figure>
-                <img class="ss" src="img/fifa1.jpg" alt="fifa">
-                <figcaption>With really good graphics FIFA is the best football simulation game today</figcaption>
-            </figure>
-            <br>
-        </div>
-    <hr>
-    <div id="games">
-            <a href="https://www.callofduty.com/"><img class="icon" src="img/cod.png" alt="cod"></a>
-            <h1>CALL OF DUTY</h1>
-            <p>Call of Duty is a first-person shooter video game franchise published by Activision. The game has many editions each put in a different time
-                period. From WW1 and WW2 to modern even future warfare this game has it all. The game is famous for its campaign mode which has unique war stories
-                with various characters and we get to experience war from their views.</p>
-                <figure>
-                        <img class="ss" src="img/cod2.jpg" alt="cod">
-                    <figcaption>A screenshot from Call of Duty: World War 2 game</figcaption>
-                </figure>
-            <p>The game has amazing graphics and physics. It can be played offline and online and is one of the most sold game series in the world.</p>
-            <br>
-        </div>
-        <hr>
-</div>
-<div class="clear"></div>
-<div class="contact">
-    <h1>Contact me:</h1>
-    <div id="contact">
-    <form action="get">
-        
-        <input type="text" name="" value="" required placeholder="E-mail Adress">
-        <br>
-        <input type="text" name="" value="" required placeholder="Username">
-        <br>
-        <textarea name="" id="" cols="30" rows="10" placeholder="Your question"></textarea>
-        <br>
-        <input class="button" type="submit" value="Ask me">
-    </form>
-</div>
-</div>
-</div>
+
     </body>
 </html>
