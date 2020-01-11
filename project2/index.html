@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Solway&display=swap" rel="stylesheet">
+    
     <title>Kapodaster</title>
 </head>
 <body>
@@ -21,6 +22,7 @@
             </ul>
         </div>
         <div id="home">
+            <img src="img/logo.png" alt="logo" srcset="" class="logo">
             <h1>Kapodaster</h1>
             <h2>The best indie-underground band that you still haven't heard about!</h2>
             <div class="ex">
@@ -48,50 +50,80 @@
         
         <p>We are Kapodaster, a highschool band formed in the Third Gymnasium in Sarajevo. We were formed in 2016 and have been playing ever since. We are open to any offers and business.</p>
         <iframe
-        src="https://maps.google.co.uk/maps?q=Third+Gymnasium&amp;output=embed">
+        src="http://maps.google.co.uk/maps?q=Third+Gymnasium&amp;output=embed">
         </iframe>
         
     </div>
 
     <div id="gallery">
         <h1>Gallery</h1>
-         <img src="img/1.png" alt="group">
-         <img src="img/2.png" alt=" group2">
-         <img src="img/3.png" alt="art">   
-         <img src="img/4.png" alt="nastup">   
-         <img src="img/5.png" alt="sticker">   
-         <img src="img/6.png" alt="group3">      
-        <br>
+       
+<div class="slideshow-container">
+
+    
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="img/1.png" style="width:100%">
+      <div class="text">Group picture of the band</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="img/2.png" style="width:100%">
+      <div class="text">Group picture of the band</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="img/3.png" style="width:100%">
+      <div class="text">Picture from rehearsal</div>
+    </div>
+  
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+    </div>
+
+    <div class="slideshow">
+
+        
     </div>
 
     <div id="songs">
          <h1>These are our songs:</h1>
-         <audio id="play">
+         <audio id="play" controls>
                 <source src="music/Kapodaster - Samo za tebe [Official Music Video].mp3" type="audio/mpeg" />
             </audio>
             <figure id>
             <img src="img/pjesma1.jpg" onClick="document.getElementById('play').play(); return false;" id="thumbnail" />
             <figcaption>Kapodaster-Samo za tebe</figcaption>
             </figure>
-
-            <audio id="play_2">
+            
+            <audio id="play_2" controls>
                     <source src="music/Kapodaster - Nađi me noćas.mp3" type="audio/mpeg" />
                 </audio>
                 <figure id>
-                <img src="img/pjesma2.jpg" onClick="document.getElementById('play_2').play(); return false;" id="thumbnail" />
-                <figcaption>Kapodaster-Nađi me noć<aside></aside></figcaption>
+                <img src="img/pjesma2.jpg" onClick="document.getElementById('play_2').play(); return false;" onClick="document.getElementById('play_2').stopAudio(audio);" id="thumbnail" />
+                <figcaption>Kapodaster-Nađi me noćas<aside></aside></figcaption>
                 </figure>
     </div>
 
     <div id="contact">
         <h1>Want to contact/book us?</h1>
-        <form action="nowhere">
+        <form action="sent.html">
             Name: <br>
                 <input type="text" name="Name" placeholder="Name" required> <br>
             Enter your e-mail: <br>
                 <input type="text" name="E-mail" placeholder="E-mail" required> <br>
             Your question: <br>
-                <input type="text" name="Question" placeholder="Question" size="250" required >
+                <input type="text" name="Question" placeholder="Question" size="250"  required id="pitanje" >
                 <br>
             <input type="submit" name="Submit">
         </form>
@@ -105,6 +137,6 @@
     </div>
     
 </div>
-
+<script src="js.js"></script>
 </body>
 </html>

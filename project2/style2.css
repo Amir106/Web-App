@@ -1,0 +1,15 @@
+
+body{
+    background-color:#282320;
+}
+
+p{
+    font-family: 'Solway', serif;
+    color: wheat;
+}
+
+a{
+    text-decoration: none;
+    color: wheat;
+    text-transform: uppercase;
+}
